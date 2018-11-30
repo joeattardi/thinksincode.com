@@ -22,7 +22,7 @@ If this is all you need, great, you're done. But I wanted something a little eas
 The usage is as follows:
 
 ```javascript
-const obj = createOnce(['name', 'age']);
+const obj = setOnce(['name', 'age']);
 ```
 
 This will return an object. The `name` and `age` properties of this object can be set only once. Other properties can be added and updated as usual. 
